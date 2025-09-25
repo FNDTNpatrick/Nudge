@@ -7,13 +7,13 @@
     "osVersionRequirements": [
         {
             "requiredMinimumOSVersion": "latest-minor",
-            "activelyExploitedCVEsMinorUpdateSLA": 14,
-            "nonActivelyExploitedCVEsMinorUpdateSLA": 21,
-            "standardMinorUpdateSLA": 21
+            "activelyExploitedCVEsMinorUpdateSLA": 10,
+            "nonActivelyExploitedCVEsMinorUpdateSLA": 17,
+            "standardMinorUpdateSLA": 17
         }
     ],
     "userExperience": {
-        "nudgeMinorUpdateEventLaunchDelay": 5,
+        "nudgeMinorUpdateEventLaunchDelay": 3,
         "allowLaterDeferralButton": false,
         "randomDelay": true
     },
@@ -27,7 +27,7 @@
                 "informationButtonText": "More Info",
                 "mainContentHeader": "Your device will restart during this update",
                 "mainContentNote": "Important Notes",
-                "mainContentSubHeader": "Updates can take around 15-25 minutes to complete",
+                "mainContentSubHeader": "Updates can take around 30-60 minutes to complete",
                 "mainContentText": "To begin click on the Update Device button and follow the prompts in the Software Update window that appears.\n\nBefore beginning the update ensure all important files have been saved as the computer will need to restart.",
                 "mainHeader": "macOS update required",
                 "primaryQuitButtonText": "Later",
